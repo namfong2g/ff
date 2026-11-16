@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio of Namfon Ounvongkhampheng">
+  <title>Namfon | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <nav class="navbar container">
+    <a href="#home" class="logo">N<span>.</span></a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">ໜ້າຫຼັກ</a></li>
+      <li><a href="#about">ກ່ຽວກັບຂ້ອຍ</a></li>
+      <li><a href="#skills">ຄວາມສາມາດ</a></li>
+      <li><a href="#contact">ຕິດຕໍ່</a></li>
+    </ul>
+
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">☀</button>
+  </nav>
+</header>
+
+<main>
+  <!-- HOME -->
+  <section class="hero container" id="home">
+    <div class="hero-text">
+      <p class="hello">HELLO, WELCOME TO MY PORTFOLIO 👋</p>
+      <h1>ສະບາຍດີ!<br>ຂ້ອຍຊື່ <span>ນໍ້າຝົນ</span></h1>
+      <h2>Web Development Student</h2>
+      <p class="description">
+        ຂ້ອຍເປັນນັກສຶກສາສາຂາເວັບໄຊ
+        ທີ່ມີຄວາມສົນໃຈໃນການຮຽນຮູ້
+        ແລະພັດທະນາຄວາມສາມາດຂອງຕົນເອງ.
+      </p>
+      <div class="hero-buttons">
+        <a href="#about" class="btn primary">ກ່ຽວກັບຂ້ອຍ</a>
+        <a href="#contact" class="btn secondary">ຕິດຕໍ່ຂ້ອຍ</a>
+      </div>
+      <div class="social">
+        <span>MY PERSONAL PORTFOLIO</span>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="image-glow"></div>
+      <img src="assets/profile.jpg"
+           alt="Namfon Profile"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+      <div class="avatar-fallback">N</div>
+      <div class="floating-card">
+        <span>✨</span>
+        <div>
+          <strong>Creative Mind</strong>
+          <small>Always Learning</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section container" id="about">
+    <div class="section-heading">
+      <p>GET TO KNOW ME</p>
+      <h2>About <span>Me</span></h2>
+    </div>
+
+    <div class="about-card">
+      <div class="about-intro">
+        <h3>ປະຫວັດສ່ວນຕົວ</h3>
+        <p>
+          ຂ້ອຍຊື່ ນ ນໍ້າຝົນ ອຸ່ນວົງຄຳເພັງ
+          ກຳລັງສຶກສາຢູ່ມະຫາວິທະຍາໄລ
+          ເຕັກນິກວິຊາຊີບແຂວງຄຳມ່ວນ
+          ສາຂາເວັບໄຊ.
+        </p>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-item">
+          <span>👤 ຊື່</span>
+          <strong>ນ ນໍ້າຝົນ ອຸ່ນວົງຄຳເພັງ</strong>
+        </div>
+        <div class="info-item">
+          <span>🎓 ບ່ອນຮຽນ</span>
+          <strong>ມະຫາວິທະຍາໄລເຕັກນິກວິຊາຊີບແຂວງຄຳມ່ວນ</strong>
+        </div>
+        <div class="info-item">
+          <span>💻 ສາຂາຮຽນ</span>
+          <strong>ເວັບໄຊ (Web Development)</strong>
+        </div>
+        <div class="info-item">
+          <span>📍 ທີ່ຕັ້ງ</span>
+          <strong>ແຂວງຄຳມ່ວນ, ສປປ ລາວ</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section container" id="skills">
+    <div class="section-heading">
+      <p>WHAT I CAN DO</p>
+      <h2>My <span>Skills</span></h2>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-icon">🤝</div>
+        <h3>Teamwork</h3>
+        <p>ສາມາດເຮັດວຽກຮ່ວມກັບຄົນອື່ນໄດ້ດີ ແລະຮູ້ຈັກຮັບຟັງຄວາມຄິດເຫັນ.</p>
+      </article>
+
+      <article class="card">
+        <div class="card-icon">💻</div>
+        <h3>Web Development</h3>
+        <p>ມີຄວາມສົນໃຈໃນການສ້າງ ແລະອອກແບບເວັບໄຊ.</p>
+      </article>
+
+      <article class="card">
+        <div class="card-icon">🌱</div>
+        <h3>Learning</h3>
+        <p>ມັກຮຽນຮູ້ສິ່ງໃໝ່ໆ ແລະພ້ອມພັດທະນາຕົນເອງ.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section class="section container" id="hobbies">
+    <div class="section-heading">
+      <p>MY FREE TIME</p>
+      <h2>My <span>Hobbies</span></h2>
+    </div>
+
+    <div class="hobby-list">
+      <div class="hobby">🍜 <span>ມັກກິນອາຫານ</span></div>
+      <div class="hobby">🎤 <span>ມັກຮ້ອງເພງ</span></div>
+      <div class="hobby">💻 <span>ສົນໃຈເຕັກໂນໂລຊີ</span></div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="quote-section container">
+    <div class="quote-card">
+      <div class="quote-icon">❝</div>
+      <p>ຊ້າໄດ້ແຕ່ບໍ່ຕ້ອງທີ່ຈະຢຸດເຮັດ</p>
+      <span>MY LIFE MOTTO</span>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section container" id="contact">
+    <div class="section-heading">
+      <p>LET'S CONNECT</p>
+      <h2>Contact <span>Me</span></h2>
+    </div>
+
+    <div class="contact-card">
+      <div class="contact-item">
+        <span>📧</span>
+        <div>
+          <small>Email</small>
+          <a href="mailto:beetkmmnv@gmail.com">beetkmmnv@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-item">
+        <span>📍</span>
+        <div>
+          <small>Location</small>
+          <strong>Khammouane, Laos</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Namfon Ounvongkhampheng.</p>
+  <p>Made with 💜 and passion.</p>
+</footer>
+
+<button id="topBtn" class="top-btn" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
